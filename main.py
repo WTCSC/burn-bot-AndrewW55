@@ -1,8 +1,8 @@
 name = input("What your name?")
-if name != "Lebron" or name != "Lebron James":
-    print("Oh, ok loser.")
-else:
+if name == "Lebron" or "Lebron James":
     print("OH MY GOD MY GLORIOUS KING I LOVE YOU!")
+else:
+    print("Oh, ok loser.")
 
 age = int(input("How old are you?"))
 if age > 16:
