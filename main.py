@@ -33,7 +33,7 @@ else:
 sport = input("What's your favorite sport?")
 if sport == "Gooning":
     print("Respectable")
-if sport == "Badminton":
+elif sport == "Badminton":
     print("Got it ON LOCK")
 else:
     print("Goofy ahh playing that sploinky doinky")
