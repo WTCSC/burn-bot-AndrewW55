@@ -19,7 +19,7 @@ else:
     print("Locked in.")
 
 color = input("What's your favorite color?")
-if color == "Blue" or "Red" or "Green":
+if color == "Blue" or color == "Red" or color == "Green":
     print("Pretty basic ngl.")
 if color == "Black":
     print("Okay edgelord.")
